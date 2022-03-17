@@ -1,5 +1,4 @@
 import numpy as np
-#from mainExact import mainExact
 from numpy import linalg as LA
 import matplotlib.pyplot as plt
 from heapq import nsmallest
