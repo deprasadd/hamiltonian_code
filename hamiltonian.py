@@ -61,8 +61,10 @@ def bandwidth(t,N):
     
     xVals = []
     yVals = []
-
-    for i in int(np.array(E)):
+    
+    z = ' , '.join(str(v) for v in E)
+    
+    for i in float(z):
         xVals.append(nsmallest(i, E))
         yVals.append(i)
     print(xVals)
